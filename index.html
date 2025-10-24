@@ -28,11 +28,21 @@
     <!-- Preconnect to external domains -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <script type="module" crossorigin src="/nexin/assets/index-CAwgXXb8.js"></script>
+    <script type="module" crossorigin src="/nexin/assets/index-B7msYep6.js"></script>
     <link rel="stylesheet" crossorigin href="/nexin/assets/index-BqfIvPFk.css">
   </head>
 
   <body class="dark">
-    <div id="root"></div>
+    <div id="root"></div>
+    <script type="text/javascript">
+  (function() {
+    var redirect = window.location.search.match(/redirect=([^&]+)/);
+    if (redirect) {
+      var target = decodeURIComponent(redirect[1]);
+      window.history.replaceState(null, null, target);
+    }
+  })();
+</script>
+
   </body>
 </html>
